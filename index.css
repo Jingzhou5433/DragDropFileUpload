@@ -1,0 +1,82 @@
+#container{
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 3px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 700px;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.Card_title{
+    background-color: rgb(235, 235, 235);
+    height: 40px;
+    font-size: 20px;
+    padding-left: 8px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#drop_zone{
+    border: 2px dashed rgb(218, 218, 218);
+    width: 335px;
+    height: 100px;
+    box-sizing: border-box;
+    transform: translate(50%, 10%);
+    margin-bottom: 33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hint{
+    margin: 0;
+    padding-left: 10px;
+}
+
+/* Hide input file default text */
+label{
+    position: relative;
+}
+#fileinp{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+}
+#btn{
+    margin-right: 5px;
+}
+
+/* Hide input file default text */
+
+
+.table{
+    border-top: 2px solid rgb(218, 218, 218);
+    /* border-left: none;
+    border-right: none; */
+    border-bottom: transparent !important;
+    margin-bottom: 0 !important;
+}
+
+.thaed{
+    background-color:  rgb(235, 235, 235) !important;
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+
+.delete_btn{
+    text-align: center;
+}
+
+.delete_col{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+
